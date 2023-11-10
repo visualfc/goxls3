@@ -25,6 +25,6 @@ require (
 	mvdan.cc/xurls/v2 v2.4.0 // indirect
 )
 
-replace golang.org/x/tools => github.com/goplus/tools v0.2.1-0.20231109152055-5d926c0a4271
+replace golang.org/x/tools => github.com/goplus/tools v0.0.0-20231109152055-5d926c0a4271
 
 replace golang.org/x/tools/gopls => github.com/goplus/tools/gopls v0.0.0-20231109152055-5d926c0a4271
