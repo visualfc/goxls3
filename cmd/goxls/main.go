@@ -4,8 +4,8 @@
 
 package main
 
-import "golang.org/x/tools/gopls"
+import "github.com/visualfc/goxls3"
 
 func main() {
-	gopls.Main()
+	goxls3.Main()
 }

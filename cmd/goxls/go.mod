@@ -2,7 +2,7 @@ module github.com/visualfc/goxls3/cmd/goxls
 
 go 1.18
 
-require golang.org/x/tools/gopls v0.14.1
+require github.com/visualfc/goxls3 v0.0.0-20231110022455-ed40aabac323
 
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
@@ -19,11 +19,14 @@ require (
 	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/tools v0.14.0 // indirect
+	golang.org/x/tools/gopls v0.14.1 // indirect
 	golang.org/x/vuln v0.0.0-20230110180137-6ad3e3d07815 // indirect
 	honnef.co/go/tools v0.4.2 // indirect
 	mvdan.cc/gofumpt v0.4.0 // indirect
 	mvdan.cc/xurls/v2 v2.4.0 // indirect
 )
+
+replace github.com/visualfc/goxls3 => ../..
 
 replace golang.org/x/tools => github.com/goplus/tools v0.0.0-20231109152055-5d926c0a4271
 
